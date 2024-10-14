@@ -1,0 +1,41 @@
+.env
+#direnv files
+.envrc
+bin/
+
+# Ignore logs
+log/
+terraform-provider-azure-devops
+terraform.log
+crash.log
+
+#  Local .terraform directories
+**/.terraform/*
+.terraform
+.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# unwanted binary file
+**/debug.test
+dist
+
+#GoLand Editor configuration
+.idea
+.fleet
+.DS_Store
+
+# Ignore IDE files
+.vs/
+.idea/
+.vscode/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
